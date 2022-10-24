@@ -20,3 +20,29 @@ header{
     text-align: center;
     color: white;
 }
+#numbers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    border: #083b4c 10px solid;
+    margin-inline: 50px;
+   }
+   .board__number{
+    height: 3.75rem;
+    width: 3.75rem;
+    background-color: #1389b2;
+    color: #fff;    
+    text-align: center;
+    line-height: 3.75rem;   
+    margin: 5px 5px;
+   }
+.fizz{
+    background-color: #0cd6a1;
+}
+.buzz{
+    background-color: #ffd166;
+}
+.fizzbuzz{
+    background-color: #f0466f;
+}
