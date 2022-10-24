@@ -6,17 +6,17 @@ for (let i = 1; i <= 100; i++) {
     element.innerHTML = i;
     div.append(element);
     // 2.nei multipli di 3 viene stampato "Fizz"
-    if (i % 3 === 0)
-   console.log(`Fizz`)
+    if (i % 3 === 0) {
+   console.log(`Fizz`);
     element.innerHTML ="Fizz"
     // 3.nei multipli di 5 viene stampato "Buzz"
-    else if (i % 5 === 0) 
-console.log(`Buzz`)
+}else if (i % 5 === 0){
+    console.log(`Buzz`)
     element.innerHTML ="Buzz"
     // 4. nei multipli di 5 viene stampato "FizzBuzz"
-    else if (i % 15 === 0) 
+}else if (i % 15 === 0){
     console.log(`FizzBuzz`)
     element.innerHTML ="FizzBuzz"
-    else console.log(i);
+}else console.log(i);
 }
 
